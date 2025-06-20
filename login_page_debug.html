@@ -1,0 +1,992 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>通联收银宝</title>
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- 声明文档使用的字符编码 -->
+<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
+<link href="/webstatic/css/cusweb.css?v=25.04.01" rel="stylesheet" type="text/css"/>
+
+
+<link href="https://cus.allinpay.com/statichtml/webpub/js/select2/dist/css/select2.min.css?v=25.04.01" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/js/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/js/jquery.form.min.js"></script>
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/js/jquery.validate.pack.js"></script>
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/js/jqfix.js"></script>
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/cusweb/js/cusweb.js?v=25.04.01"></script>
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/js/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/cusweb/js/MultiCombo2.0.3.js?v=25.04.01"></script>
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/cusweb/js/common.js"></script>
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/cusweb/js/MultiComboURL.js"></script>
+<script type="text/javascript" src="/webstatic/js/aipgUtil.js?v=25.04.01"></script>
+<script type="text/javascript" src="/webstatic/js/getPageExt.js?v=25.04.01"></script>
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/cusweb/js/getPage.js?v=25.04.01"></script>
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/js/layer-v3.5.0/layer/layer.js?v=25.04.01"></script>
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/js/select2/dist/js/select2.full.min.js?v=25.04.01"></script>
+<!-- <script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/cusweb/js/select2.full.min.1.0.js?v=25.04.01"></script> -->
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/js/select2/dist/js/i18n/it.js?v=25.04.01"></script>
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/js/select2/dist/js/i18n/nl.js?v=25.04.01"></script>
+<script type="text/javascript" src="/webstatic/js/laydate/laydate.js?v=25.04.01"></script>
+<script type="text/javascript">
+var webPath = '';
+var has_inpt_trxpwd = '';
+var childcuslist = '';
+var cus2subbranch = '';
+var authbranch = ',';
+var hideall = false;
+var allowClear = false;
+
+$(document).ready(function(){
+
+	//商户与门店的加载，以及控制所有的select变成select2
+    if ($('select')[0]){
+		if($('#cusid')[0] || $('#subid')[0]){
+			 aipgUtil.loadCusOrSub('','','',hideall,allowClear);
+		}
+
+		/*判断是否隐藏select2搜索框*/
+	    $(".select2-selection").click(function(){
+	           if ($(".select2-results__option").length < 8) {
+	           $(".select2-search__field").hide();
+	        }
+	     });
+     }
+    /*hover显示详情*/
+    if($('.hidden-tips')[0]){
+    	 $('.hidden-tips').each(function(){
+    		 $(this).find('label').css('display','none'); 
+         });
+        $('.hidden-tips').mouseover(function(){
+            layer.tips($(this).find('label').text(), $(this));
+        });
+    }
+
+    //点击查询之后将当前页数置成1
+    if($('input[type="submit"]')[0]){
+    	$('input[type="submit"]').click(function(){
+        	if($('input[name="pageIndex"]')[0]){
+        		$('input[name="pageIndex"]').val('1');
+            }
+        });
+     }
+   
+
+});
+</script>
+<link rel="shortcut icon" href="https://cus.allinpay.com/statichtml/webpub/cusweb/favicon.ico" type="image/x-icon" />
+
+
+
+
+<style>
+.alert-table tr .jy-label {
+        min-width: auto;
+        width: 116px;
+    }
+    .alert-table tr .jy-password input[type="password"] {
+        width: 200px;
+    }
+</style>
+<link href="https://cus.allinpay.com/statichtml/webpub/cusweb/css/passguard.css?v=25.04.01" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/js/artDialog4.1.7/jquery.artDialog.js?skin=blue" ></script>
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/js/artDialog4.1.7/plugins/iframeTools.js"></script>
+<script language="javascript" src="/webstatic/js/PassGuardCtrl.js?v=25.04.01"></script>
+<script language="javascript" src="https://cus.allinpay.com/statichtml/webpub/cusweb/js/crypto-js.js"></script>
+<script language="javascript" src="https://cus.allinpay.com/statichtml/webpub/cusweb/js/pwdsecure.js?v=25.04.01"></script>
+
+<script type="text/javascript">
+var pgeCert = "2";
+var pgeditor=null;
+pwdsecure.init('ocx_login_style','ocx_style','06583924584827215951779361455774','Dt/MapVLvnUe+Go9PN+fi3IkEZ8rkNBH1QRM3rGOwFU=');
+window.pgeCtrl = pgeditor;
+
+//删除用户
+function checktrxpwd(){
+	var InptTrxpwd='';
+	if(InptTrxpwd == '-1')	//未设置交易密码
+	{
+		layer.alert('请先设置交易密码',function(){
+			document.location.href = '/user/security';
+		});
+		return false;
+
+	}else if(InptTrxpwd!='1'){
+           var content = '<table class="alert-table">'+
+                         '<tr>'+
+                         '<td class="jy-label">交易密码：</td>'+
+                         '<td class="jy-password"><span id="_ocx_password_str"><input type="password" id="input_password" class="input-text"/></span></td>'+
+                         '</tr>'+
+                         '<tr>'+
+                         '<td colspan="2" class="op-btn"><input type="button" class="btn btn-primary" onclick="dovlid();" value="确定"/></td>'+
+                         '</tr>'+
+                         '</table>';
+            layer.open({
+                type: 1,
+                title: '为了您的账号安全，请输入交易密码后执行操作',
+                area: ['400px', 'auto'],
+                content: content,
+                success: function() {
+                    setTimeout(function(){
+                        $('#input_password').attr('placeholder', '请输入交易密码');
+                    },100);
+                }
+            });
+            return false;
+	}
+	return true;
+}
+
+function dovlid() {
+	var PwdResult=$('#input_password').val();
+    if (PwdResult==null || PwdResult=='') {
+        alertForPwd("密码不能为空");
+        return false;
+    }
+
+    $.post(webPath + '/unauth/pgDecrypt.dsr', {
+        PwdResult: PwdResult
+    }, function(data) {
+        data = eval('(' + data + ')');
+        layer.alert(data.message, {
+            success: function() {
+                $('.pwd-modal').show();
+            },
+            end: function() {
+                $('.pwd-modal').hide();
+                $('#_ocx_password').css('visibility', 'visible');
+                if(data.code=='0'){
+                    document.location.reload();
+                }
+            }
+        });
+    });
+}
+
+</script>
+<link href="/webstatic/css/login.css?v=25.04.01" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="https://cus.allinpay.com/statichtml/webpub/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+    function valandsubmit(){
+        var logintype=$('#logintype').val();
+        if(logintype == 'mobile'){
+            var uifMobile=$('#uifMobile').val();
+            if( $('#hid_uifMobile').val() != uifMobile){
+                $("#mobile_errormsg").text("登录手机号已改变，请重新获取验证码");
+                $("#mobile_errordiv").show();
+                $('#telCode').focus();
+                return false;
+            }
+            var telCode=$('#telCode').val();
+            if(telCode == '' || telCode == null){
+                $("#mobile_errormsg").text("登录手机验证码不能为空");
+                $("#mobile_errordiv").show();
+                $('#telCode').focus();
+                return false;
+            }
+            if(telCode.length != 6){
+                $("#mobile_errormsg").text("登录手机验证码格式不对");
+                $("#mobile_errordiv").show();
+                $('#telCode').focus();
+                return false;
+            }
+            JSUtil.openloading();
+            $.post('/mobilelogin',{flag:'verifycode',uifMobile:uifMobile,smscode:telCode},function(data){
+                data = eval('(' + data + ')');
+                $("#mobile_errordiv").hide();
+                layer.closeAll();
+                if(data.code==0){
+                    $('#mobileuserid').val(data.userid);
+                    document.location.href='/login?mobileuseridkey='+data.userkey;
+                    return true;
+                }else if(data.code == 2){
+                    var userlist = JSON.parse(data.userlist);
+                    var content='<div class="merchant-items">';
+                    userlist.forEach(item => {
+                        var custype='';
+                        if(item['custype'] == '203'){
+                            custype='<label class="custype1">服务商</label>';
+                        }else if(item['custype'] =='202'){
+                            custype='<label class="custype2">代理商</label>';
+                        }else if(item['custype'] =='103'){
+                            custype='<label class="custype3">非支付客户</label>';
+                        }
+                        var userid=item['userid'];
+                        var userkey=item['userkey'];
+                        content += '<div class="merchant-item" onclick="document.location.href=\'/login?mobileuseridkey='+userkey+'\'">'
+                            +'<div class="merchant-logo">'
+                            +'<img src="https://cus.allinpay.com/statichtml/webpub/cusweb/images/touxiangshezhi.png" alt="">'
+                            +'</div>'
+                            +'<div class="merchant-info">';
+                        if(item['branchname'] == 'null' || item['branchname'] == null){
+                            content +='<h3>'+item['cusname']+custype+'</h3>';
+                        }else{
+                            custype='<label class="custype3">门店</label>';
+                            content +='<h3>'+item['branchname']+custype+'</h3><p>商户名称：'+item['cusname']+'</p>';
+                        }
+                        content +='<p>商户号：'+item['cusid']+'</p>'
+                            +'<p>登录账号：'+userid+'</p>'
+                            +'</div><div class="arrow-icon"></div></div>';
+                    });
+                    content +='</div>';
+
+                    layer.open({
+                        type: 1,
+                        title: '请选择商户',
+                        shadeClose: false,
+                        area: ["580px", "490px"],
+                        content: content
+                    });
+                }else {
+                    $("#mobile_errormsg").text(data.msg);
+                    $("#mobile_errordiv").show();
+                    $('#telCode').focus();
+                    return false;
+                }
+            });
+        }else if(logintype == 'userid'){
+            if(!login_submit()){
+                return ;
+            }
+            $("#login-form").submit();
+        }
+    }
+
+    function bindMobie(uifMobile){
+        layer.open({
+            type: 1,
+            title: '绑定手机号',
+            shadeClose: false,
+            area: ['590px', 'auto'],
+            content: '<form action="" id="changeform">'
+                +'<div class="alert-tips-top">可以通过手机验证码快捷登录</div>'
+                +'<table class="alert-table">'
+                +'<tr>'
+                +'<td>'
+                +'<dt>登陆账号：</dt></td>'
+                +'<td class="vcode-group">'
+                +'<input type="text" name="userid" id="init_userid" placeholder="请输入登陆账号"/>'
+                +'</td>'
+                +'</tr>'
+                +'<tr><td>'
+                +'<dt>密码：</dt></td>'
+                +'<td>'
+                +'<input type="password" name="password" id="init_password" placeholder="请输入密码"/>'
+                +'</td>'
+                +'</tr>'
+                +'<tr>'
+                +'<td>'
+                +'<dt>手机号：</dt></td>'
+                +'<td class="vcode-group">'
+                +'<input type="text" name="uifMobile" id="init_uifMobile" placeholder="请输入手机号" value="'+uifMobile+'"/>'
+                +'</td>'
+                +'</tr>'
+                +'<tr>'
+                +'<td>'
+                +'<dt>验证码：</dt></td>'
+                +'<td class="vcode-group">'
+                +'<input type="text" name="smscode" id="init_smscode" class="input-code"/>'
+                +'<span class="send-vcode"><input type="button" value="获取验证码" class="btn btn-default" onclick="sendValide(this)"/></sapn>'
+                +'</td>'
+                +'</tr>'
+                +'<tr><td colspan="2" class="op-btn">'
+                +'<input type="button" class="btn btn-primary edit_btn" value="绑定" onclick="dovalidinittelCode(this)"/></td>'
+                +'</tr>'
+                +'</table></form>'
+        });
+    }
+
+    function dovalidinittelCode(obj){
+        var oldval_init_userid=$('#init_userid').attr('oldval');
+        if(oldval_init_userid == null || oldval_init_userid == ''){
+            layer.alert('请先输入手机号校验验证码');
+            return false;
+        }
+        var init_userid=$('#init_userid').val();
+        if(init_userid != oldval_init_userid){
+            layer.alert('请保持与使用获取验证码的登录用户一致');
+            return false;
+        }
+        var oldval_uifMobile=$('#init_uifMobile').attr('oldval');
+        if(oldval_uifMobile == null || oldval_uifMobile == ''){
+            layer.alert('请先输入手机号校验验证码');
+            return false;
+        }
+        var uifMobile=$('#init_uifMobile').val();
+        if(uifMobile != oldval_uifMobile){
+            layer.alert('请保持与使用获取验证码手机号一致');
+            return false;
+        }
+        var init_password=$('#init_password').val();
+        if(init_password == null || init_password == ''){
+            layer.alert('登录密码不能为空');
+            return false;
+        }
+        var init_smscode=$('#init_smscode').val();
+        if(init_smscode == null || init_smscode == ''){
+            layer.alert('绑定验证码不能为空');
+            return false;
+        }
+        var $btn = $(obj);
+        $btn.prop('disabled', true).addClass('disabled');
+        $btn.attr('value','校验中...');
+        $.post('/mobilelogin',{flag:'validinittelCode',uifMobile:uifMobile,inituserid:init_userid,smscode:init_smscode,password:init_password},function(data){
+            data = eval('(' + data + ')');
+            if(data.code==0){
+                document.location.href='/login?mobileuseridkey='+data.userkey;
+            }else{
+                $btn.attr('value','绑定');
+                layer.alert(data.msg);
+                $btn.prop('disabled', true).remove('disabled');
+            }
+        });
+
+    }
+
+    function sendValide(obj){
+        var uifMobile=$('#init_uifMobile').val();
+        if(uifMobile == null || uifMobile == ''){
+            layer.alert('请输入登录手机号');
+            return false;
+        }
+        var reg=/^((0\d{2,3}-\d{7,8})|(1\d{10}))$/;
+        if( uifMobile != '' && uifMobile != null && !reg.test(uifMobile)){
+            layer.alert('请输入正确登录手机号');
+            return false;
+        }
+        var init_userid=$('#init_userid').val();
+        if(init_userid == null || init_userid == ''){
+            layer.alert('请输入登录账户号');
+            return false;
+        }
+        var $btn = $(obj);
+        var $sendsms = $(obj).parent();
+        $btn.prop('disabled', true).addClass('disabled');
+        $.post('/mobilelogin',{flag:'getinittelCode',uifMobile:uifMobile,inituserid:init_userid},function(data){
+            data = eval('(' + data + ')');
+            if(data.code==0){
+                cusweb.countdown(obj,60);
+                $('#init_userid').attr('oldval',init_userid);
+                $('#init_uifMobile').attr('oldval',uifMobile);
+                layer.alert(data.msg);
+            }else{
+                layer.alert(data.msg);
+                $sendsms.html('<input type="button" value="发送验证码" class="btn btn-default" onclick="sendValide(this)"/>');
+                $btn.prop('disabled', true).remove('disabled');
+            }
+        });
+    }
+
+    function login_submit() {
+        var logintype = $('#logintype').val();
+        if (logintype != 'mobile') {
+            var userid = $("#userid");
+            if (userid.val() == '') {
+                $("#errormsg").text("请输入用户名");
+                $("#errordiv").show();
+                userid.focus();
+                return false;
+            }
+            var password = $('#password').val();
+            if (password == '' || password == null) {
+                $("#errormsg").text('请输入密码');
+                $("#errordiv").show();
+                return false;
+            }
+            var cuserrorCode_id = $('#cuserrorCode');
+            if (cuserrorCode_id.length != 0) {
+                var cuserrorCode = $('#cuserrorCode').val();
+                if (cuserrorCode == '' || cuserrorCode == null) {
+                    $("#errormsg").text("请输入验证码");
+                    $("#errordiv").show();
+                    return false;
+                }
+            }
+            $("#errormsg").text("");
+            JSUtil.SetCookie("userid", userid.val());
+        }
+        return true;
+    }
+
+    function sendTfValide(obj) {
+        var $sendsms = $(obj).parent();
+        let load = layer.load()
+        $.post('/twoFactorLogin', {type: 'sendsms', userid: ''}, function (data) {
+            layer.close(load);
+            data = eval('(' + data + ')');
+            if (data.code == 0) {
+                layer.alert(data.msg);
+                cusweb.countdown(obj, 60);
+            } else {
+                layer.alert(data.msg);
+                $sendsms.html('<input type="button" onclick="sendTfValide(this)" value="发送验证码" class="btn btn-default" />');
+            }
+        });
+    }
+
+    function tflogin(obj) {
+        var tfsmscode = $('#tfsmscode').val();
+        if (!tfsmscode) {
+            layer.alert('请输入验证码');
+            return false;
+        }
+        $(obj).attr('disabled', true);
+        let load = layer.load()
+        $.post('/twoFactorLogin', {type: 'login', userid: '', smscode: tfsmscode}, function (data) {
+            data = eval('(' + data + ')');
+            layer.close(load);
+            if (data.code == 0) {
+                document.location.replace('/main');
+            } else {
+               $(obj).attr('disabled', false);
+                layer.alert(data.msg);
+            }
+        });
+    }
+
+</script>
+</head>
+<body>
+        <header class="index-header">
+            <div class="inner">
+                <a href="#" class="index-logo"><img src="https://cus.allinpay.com/statichtml/webpub/cusweb/images/login-ipv6logo.png" alt="" class="navbar-img"></a>
+                <ul class="menu">
+                    <li class="item"><a href="https://cus.allinpay.com/statichtml/cusweb/html/produce.html?v=1750319312122" target="_blank">产品中心</a></li>
+                    <li class="item down-item">
+                        <a href="javascript:;" class="down-item-a">行业方案</a>
+                        <ul class="down-item-menu">
+                            <li><a href="https://cus.allinpay.com/statichtml/cusweb/html/insurance.html?v=1750319312122" target="_blank">保险行业</a></li>
+                            <li><a href="https://cus.allinpay.com/statichtml/cusweb/html/education.html?v=1750319312122" target="_blank">教育行业</a></li>
+                            <li><a href="https://cus.allinpay.com/statichtml/cusweb/html/car.html?v=1750319312122" target="_blank">汽车行业</a></li>
+                        </ul>
+                    </li>
+                    <li class="item"><a href="https://cus.allinpay.com/statichtml/cusweb/html/helper/#/" target="_blank">帮助中心</a></li>
+                    <li class="item down-item">
+                        <a href="javascript:;" class="down-item-a">下载中心</a>
+                        <ul class="down-item-menu">
+                            <li><a href="https://cus.allinpay.com/statichtml/cusweb/html/xtfV3.0.rar">下载小通付</a></li>
+                            <li><a href="javascript:;"class="js_qrcode">好老板/公众号</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="contact">
+                    <span>客服电话</span>
+                    <img src="https://cus.allinpay.com/statichtml/webpub/cusweb/images/login_95193.png" alt="">
+                </div>
+            </div>
+        </header>
+        
+        <!-- 轮播 -->
+        <div id="slideBox" class="slideBox">
+            <div class="hd">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="bd">
+                <ul>
+                    <li class="pic1"></li>
+                    <li class="pic4"></li>
+                    <li class="pic2"></li>
+                    <li class="pic3" style="cursor: pointer; z-index: 99;"></li>
+                </ul>
+            </div>
+           
+            
+           
+        </div>
+	   <form class="login-box-wrap" id="login-form" action="/login" method="post" accept-charset="utf-8" class="form-horizontal">
+        <!-- 登录输入框 -->
+        <input type="hidden" id="logintype" name="logintype" value="userid"/>
+        <div class="login-box-title">商户登录</div>
+        <div class="login-tab">
+            <a href="javascript:void(0);" class="selected">账号登录</a>
+            <a href="javascript:void(0);">扫码登录</a>
+            <a href="javascript:void(0);">短信登录</a>
+        </div>
+        <div class="login-box">
+            <div class="error" style="display: none;" id="errordiv">
+                <span id="errormsg"></span>
+            </div>
+            <dl class="num">
+                <dt><img src="https://cus.allinpay.com/statichtml/webpub/cusweb/images/login_yonghu.png"/></dt>
+                <dd>
+                    <input type="text" name="userid" id="userid"  placeholder="用户号"/>
+                </dd>
+            </dl>
+            <dl class="psd">
+                <dt><img src="https://cus.allinpay.com/statichtml/webpub/cusweb/images/login_mima.png"/></dt>
+                <dd>
+                    <input type="password"  id="password" name="password" />
+                </dd>
+            </dl>
+            <dl class="code">
+                <dt><img src="https://cus.allinpay.com/statichtml/webpub/cusweb/images/login_yanzhengma.png"/></dt>
+                <dd>
+                    <input type="text" placeholder="验证码" name="cuserrorCode" id="cuserrorCode"/>
+                    <img src="/getvalidCode?type=cuserrorCode" id="validcode" onclick="changeCode(this)"/>
+                </dd>
+            </dl>
+            <div class="op-btn">
+                <input type="button" onclick="javascript:valandsubmit();" class="btn btn-primary btn-big" value="登录" />
+            </div>
+            <div class="op-a">
+                <a href="javascript:;" onclick="document.location.href='/createuser'">首次登录</a>
+                <a href="javascript:void(0)"  onclick="document.location.href='/changepwdauthless?ispage=true'">忘记密码</a>
+            </div>
+            <!-- <div class="first-login"></div> -->
+        </div>
+        <div class="qrcode-box" style="display: none;">
+        	<input type="hidden" name="token" value="EbV-k4lMRS2k" />
+            <div class="qrcode-img">
+            	<img id="qrcodeimgdiv" alt="">
+                <div class="qrcode-invalid">
+                    <div class="void">
+                        <p id="qrcodeimgmsg">二维码失效，点击刷新</p>
+                    </div>
+                    <div class="mask"></div>
+                </div>
+            </div>
+            <div class="qrcode-txt">好老板APP扫一扫</div>
+        </div>
+        <div class="sms-login-box" style="display: none;">
+            <div class="error" style="display: none;" id="mobile_errordiv">
+                <span id="mobile_errormsg"></span>
+            </div>
+            <dl class="num">
+                <dt><img src="https://cus.allinpay.com/statichtml/webpub/cusweb/images/login_phone.png"/></dt>
+                <dd>
+                    <input type="tel" name="uifMobile" id="uifMobile"  placeholder="手机号"/>
+                    <input type="hidden" id="hid_uifMobile" />
+                    <input type="hidden" name="mobileuserid" id="mobileuserid" />
+                </dd>
+            </dl>
+            <dl class="code">
+                <dt><img src="https://cus.allinpay.com/statichtml/webpub/cusweb/images/login_yanzhengma.png"/></dt>
+                <dd>
+                    <input type="text" placeholder="验证码" name="telCode" id="telCode"/>
+                    <a href="javascript:void(0);" class="btn btn-default" id="gettelCode">获取验证码</a>
+                </dd>
+            </dl>
+            <div class="op-btn">
+                <input type="button" onclick="javascript:valandsubmit();" class="btn btn-primary btn-big" value="登录" />
+            </div>
+            <div class="op-a">
+                <a href="javascript:;" onclick="document.location.href='/createuser'">首次登录</a>
+                <a href="javascript:void(0)"  onclick="document.location.href='/changepwdauthless?ispage=true'">忘记密码</a>
+                <a href="javascript:void(0)"  onclick="bindMobie('')">绑定手机号</a>
+            </div>
+        </div>
+	</form>
+    </div>
+    <section class="produce">
+        <div class="center-content">
+            <div class="solutions-tt">
+                产品中心
+                <a target="_blank" href="https://cus.allinpay.com/statichtml/cusweb/html/produce.html?v=1750319312122">查看更多</a>
+            </div>
+            <ul class="produce-list">
+                <li class="produce-item">
+                    <a href="https://cus.allinpay.com/statichtml/cusweb/html/produce.html#payment_product" target="_blank">
+                        <span class="produce-item-icon produce-item-icon--zf"></span>
+                        <p>支付产品</p>
+                    </a>
+                </li>
+                <li class="produce-item">
+                    <a href="https://cus.allinpay.com/statichtml/cusweb/html/produce.html#settlement_product" target="_blank">
+                        <span class="produce-item-icon produce-item-icon--js"></span>
+                        <p>结算产品</p>
+                    </a>
+                </li>
+                <li class="produce-item">
+                    <a href="https://cus.allinpay.com/statichtml/cusweb/html/produce.html#finance_product" target="_blank">
+                        <span class="produce-item-icon produce-item-icon--jr"></span>
+                        <p>金融产品</p>
+                    </a>
+                </li>
+                <li class="produce-item">
+                    <a href="https://cus.allinpay.com/statichtml/cusweb/html/produce.html#capital_admin" target="_blank">
+                        <span class="produce-item-icon produce-item-icon--zj"></span>
+                        <p>资金管理</p>
+                    </a>
+                </li>
+                <li class="produce-item">
+                    <a href="https://cus.allinpay.com/statichtml/cusweb/html/produce.html#increment_service" target="_blank">
+                        <span class="produce-item-icon produce-item-icon--yx"></span>
+                        <p>增值服务</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="solutions">
+        <div class="center-content">
+            <div class="solutions-tt">
+                行业解决方案
+                <a target="_blank" href="https://cus.allinpay.com/statichtml/cusweb/html/insurance.html?v=1750319312122">查看更多</a>
+            </div>
+            <ul class="solutions-list">
+                <li class="solutions-item solutions-item--bx">
+                    <img src="https://cus.allinpay.com/statichtml/webpub/cusweb/images/login_baoxian.png" alt="">
+                    <h3>保险行业</h3>
+                    <p>线上线下多样化支付产品，满足保险行业 保费代收、 理赔代付、佣金代发、电销收款。</p>
+                    <a target="_blank" href="https://cus.allinpay.com/statichtml/cusweb/html/insurance.html?v=1750319312122">查看解决方案</a>
+                </li>
+                <li class="solutions-item solutions-item--jy">
+                    <img src="https://cus.allinpay.com/statichtml/webpub/cusweb/images/login_jiaoyu.png" alt="">
+                    <h3>教育行业</h3>
+                    <p>解决传统资金归集模式的大风险、耗时长、效率低、工作量大等问题提供的解决方案。</p>
+                    <a target="_blank" href="https://cus.allinpay.com/statichtml/cusweb/html/education.html?v=1750319312122">查看解决方案</a>
+                </li>
+                <li class="solutions-item solutions-item--qc">
+                    <img src="https://cus.allinpay.com/statichtml/webpub/cusweb/images/login_qiche.png" alt="">
+                    <h3>汽车行业</h3>
+                    <p>“小通汽车”：通联提供独立于支付以外的，针对汽车后市场商户提供的行业系统性工具产品。</p>
+                    <a target="_blank" href="https://cus.allinpay.com/statichtml/cusweb/html/car.html?v=1750319312122">查看解决方案</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+
+   
+   <div class="footer">
+        <div class="container">
+            <ul class="site-footer-hd">
+                <li><a href="https://cus.allinpay.com/statichtml/cusweb/html/about/about.html" target="_blank">关于通联收银宝</a></li><span>|</span>
+                <li><a href="https://cus.allinpay.com/statichtml/cusweb/html/about/contact.html" target="_blank">联系我们</a></li><span>|</span>
+                <li><a href="http://www.allinpay.com/" target="_blank">通联支付官网</a></li>
+            </ul>
+            <ul class="site-footer-bd">
+                <li>
+                  <span>通联支付版权所有2008-2012沪ICPB备09026459</span>
+                  <span>本网站已支持IPv6</span>
+                </li>
+                <li>
+                    <span>支付业务许可证（证号Z2000531000017）</span>
+                    <span>中国支付清算协会副会长单位</span>
+                    <span>VeriSign加密中国信用企业</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+  function changeCode(obj){
+	 $("#validcode").attr('src','/getvalidCode?type=cuserrorCode&time='+(new Date()).getTime());
+  }
+
+  $('.pic3').click(function() {
+    window.open('https://cus.allinpay.com/statichtml/cusweb/html/about/xft.html', '_blank');
+  });
+
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){
+      document.onkeydown = function(e){
+          var ev = document.all ? window.event : e;
+          var isEnter = false;
+          if (typeof ev.key !== "undefined") {
+              isEnter = (ev.key === "Enter");
+          } else {
+              isEnter = (ev.keyCode == 13);
+          }
+          if(isEnter) {
+              valandsubmit();//处理事件
+          }
+      }
+      if(''!=''){
+          $("#errormsg").text('');
+          $("#errordiv").show();
+          $("#titleh2").hide();
+      }
+
+      var userid = JSUtil.getCookie("userid");
+      if(userid){
+          $("#userid").val(userid);
+      }else{
+          $("#userid").focus();
+      }
+
+      if(''){
+          // 刷新页面不会再弹窗
+          window.history.replaceState(null, null, window.location.href);
+          // 双重认证，弹窗校验
+          let masktel = '';
+          layer.open({
+              type: 1,
+              title: '提示',
+              shadeClose: false,
+              area: ['440px', 'auto'],
+              content: '<form action="" id="changeform">' +
+                  '<div class="login-ip-tips">为了您的账号安全，系统将向您的手机号'+masktel+'发送验证码进行身份验证。</div>' +
+                  '<table class="alert-table">' +
+                  '    <tr>' +
+                  '        <td style="width:96px;min-width:auto;"><dt>验证码：</dt></td>' +
+                  '        <td>' +
+                  '            <input type="text" name="smscode" id="tfsmscode" class="input-code" placeholder="请输入验证码"/>' +
+                  '            <span><input type="button" onclick="sendTfValide(this)" value="发送验证码" class="btn btn-default" /></sapn>' +
+                  '        </td>' +
+                  '    </tr>' +
+                  '    <tr><td colspan="2" class="op-btn"><input type="button" class="btn btn-primary edit_btn" value="确定" onclick="tflogin(this)"/></td></tr>' +
+                  '</table></form>'
+          });
+      }
+
+      //轮播
+      $("#slideBox").slide({mainCell:".bd ul",effect:"fold",autoPlay:true,mouseOverStop:true,easing:"easeInQuint",delayTime:700, interTime: 3500});
+      function setSize(){
+          $('.slideBox .bd ul').css('width','100%');
+          $('.slideBox .bd ul li').css('width','100%');
+      }
+      setSize();
+      $(window).resize(function(){
+          setSize();
+      });
+
+    var count = 60;
+    var timer = null; // 定义一个变量来存储定时器 ID
+    $('#gettelCode').on('click', function() {
+        var uifMobile=$('#uifMobile').val();
+        if(uifMobile == null || uifMobile == ''){
+            $("#mobile_errormsg").text("请输入登录手机号");
+            $("#mobile_errordiv").show();
+            $('#uifMobile').focus();
+            return false;
+        }
+        var reg=/^((0\d{2,3}-\d{7,8})|(1\d{10}))$/;
+        if(uifMobile != '' && uifMobile != null && !reg.test(uifMobile)){
+            $("#mobile_errormsg").text("请输入正确登录手机号");
+            $("#mobile_errordiv").show();
+            $('#uifMobile').focus();
+            return false;
+        }
+        if (timer) return; // 如果定时器已经在运行，直接返回
+        var $btn = $(this);
+        JSUtil.openloading();
+        $btn.prop('disabled', true).addClass('disabled');
+        $.post('/mobilelogin',{flag:'getcode',uifMobile:uifMobile},function(data){
+            data = eval('(' + data + ')');
+            $("#mobile_errordiv").hide();
+            layer.closeAll();
+            if(data.code==0){
+                $btn.text(`重新获取(`+count+`s)`);
+                $('#hid_uifMobile').val(uifMobile);
+                timer = setInterval(function() {
+                    count--;
+                    if (count > 0) {
+                        $btn.text(`重新获取(`+count+`s)`);
+                    } else {
+                        clearInterval(timer);
+                        timer = null; // 重置定时器 ID
+                        count = 60; // 重置倒计时计数器
+                        $btn.prop('disabled', false).removeClass('disabled');
+                        $btn.text('获取验证码');
+                    }
+                }, 1000);
+            }else if(data.code == 2){
+                $btn.prop('disabled', true).removeClass('disabled');
+                layer.confirm("请先绑定用户后，再使用快捷登录",{ closeBtn: 0, btn: ['去绑定','取消'] }, function (index) {
+                    bindMobie(uifMobile);
+                    layer.close(index);
+                });
+                return false;
+            }else{
+                $btn.prop('disabled', true).removeClass('disabled');
+                $("#mobile_errormsg").text(data.msg);
+                $("#mobile_errordiv").show();
+            }
+        });
+    });
+
+	  var url = window.location.toString();
+	  var id = url.split("#")[1];
+	  if(id && "scanLogin" === id){
+		// 初始化
+        fetchQRcode();
+        $(".login-tab a:eq(1)").addClass('selected').siblings().removeClass('selected');
+        $('.login-box').hide();
+        $('.qrcode-box').show();
+	  }else{
+	    //fetchQRcode();
+	  }
+      var qrContent ='<div class="qrcodes">'+
+'        <h3>通联收银宝移动端服务</h3>'+
+'        <p>随时随地掌握收款明细</p>'+
+'        <p>APP语音播报到账金额，确认每一笔收款金额</p>'+
+'        <div class="app-qrcode">'+
+'            <img src="https://cus.allinpay.com/statichtml/webpub/cusweb/images/app_qrcode.png" alt="">'+
+'            <p>好老板下载</p>'+
+'        </div>'+
+'        <div class="wx-qrcode">'+
+'            <img src="https://cus.allinpay.com/statichtml/webpub/cusweb/images/sjfw_dmf_erweima.png" alt="">'+
+'            <p>通联收银宝公众号</p>'+
+'        </div>'+
+'    </div>';
+
+    $('.js_qrcode').on('click', function() {
+        layer.open({
+            title: false,
+            btn: false,
+            area: ['430px', '333px'],
+            content: qrContent
+        });
+    });
+    
+    $('.login-status-bar-r li').hover(function() {
+        $(this).children('.inner-list').show();
+        $(this).find('.icon-downup').attr('src','https://cus.allinpay.com/statichtml/webpub/cusweb/images/daohang_jiantou_press.png');
+    }, function() {
+        $(this).children('.inner-list').hide();
+        $(this).find('.icon-downup').attr('src','https://cus.allinpay.com/statichtml/webpub/cusweb/images/daohang_jiantou_normal.png');
+    });
+
+    $('.solutions-item').hover(function() {
+        $(this).children('img').css('margin-top', '-48px');
+        $(this).children('h3').css('margin-top', '40px');
+        $(this).children('p').css('margin-top', '30px');
+    }, function() {
+        $(this).children('img').css('margin-top', '80px');
+        $(this).children('h3').css('margin-top', '0');
+        $(this).children('p').css('margin-top', '104px');
+    });
+
+    $('.login-tab a').on('click', function() {
+        $(this).addClass('selected').siblings().removeClass('selected');
+        if ($(this).index() === 0) {
+            $('.qrcode-box').hide();
+            $('.sms-login-box').hide();
+            $('.login-box').show();
+            $('#logintype').val('userid');
+        } else if($(this).index() === 1){
+        	// 初始化
+            $('.login-box').hide();
+            $('.sms-login-box').hide();
+            $('.qrcode-box').show();
+            $('#logintype').val('qrcode');
+            if(!currentAjax){
+            	fetchQRcode();
+        	}
+        } else{//短信登录
+            $('.qrcode-box').hide();
+            $('.login-box').hide();
+            $('.sms-login-box').show();
+            $('#logintype').val('mobile');
+        }
+    });
+
+    $('.qrcode-invalid').on('click', function() {
+        $(this).hide();
+        var errorcode = $(this).attr("errorcode");
+        if("-3" === errorcode){
+        	location.reload();
+        }else{
+        	fetchQRcode();
+        }
+    });
+    
+    var currentfetchQRcodeAjax = null;
+    function fetchQRcode() {
+    	var token = $("input[name='token']").val();
+    	if(token == '' ){
+    		location.href = '/login';
+    		return;
+    	}
+    	if(!navigator.cookieEnabled){
+    		$("#qrcodeimgmsg").text("当前浏览器已禁用cookie，请在浏览器设置中打开cookie方可使用扫码功能");
+    		$('.qrcode-invalid').show();
+    		return;
+    	}
+    	var param = {token : token};
+    	currentfetchQRcodeAjax = $.ajax({
+               //请求方式
+               type : "POST",
+               data: param,
+               //请求地址
+               url : "/jslogin",
+               //请求成功
+               success : function(result) {
+                   data = eval('(' + result + ')');
+                   if(data.code == 0){
+                   	 	$("#qrcodeimgdiv").attr("src","/qrcode/"+data.uuid+"?token="+token);
+	                   	if(currentAjax){
+	                 		currentAjax.abort();
+	                 	}
+                        scanLogin(data.uuid,token)
+                   }else{
+               		   location.href = '/login';  
+                   }
+               },
+               //请求失败，包含具体的错误信息
+               error : function(e){
+                   //console.log(e.status);
+                   //console.log(e.responseText);
+                   $('.qrcode-invalid').show();
+               }
+          });
+    }
+    
+    var currentAjax = null;
+    function scanLogin(uuid,token){
+    	currentfetchQRcodeAjax = null;
+    	if(currentAjax){
+    		currentAjax.abort();
+    	}
+    	var param = {uuid:uuid,token:token};
+    	currentAjax = $.ajax({
+            //请求方式
+            type : "POST",
+            //请求地址
+            url : "/scanlogin",
+            timeout: 25000,
+            data : param,		
+            //请求成功
+            success : function(result) {
+            	data = eval('(' + result + ')');
+            	if(data.code == -1){
+            		scanLogin(uuid,token);
+            	}else if(data.code == -2){
+            		$('.qrcode-invalid').show();
+            	}else if(data.code == 0){
+            		location.href = ''+data.path;
+            	}else if(data.code == -3){
+            		$("#qrcodeimgmsg").text(data.message);
+            		$('.qrcode-invalid').attr("errorcode",-3);
+            		$('.qrcode-invalid').show();
+            	}else if(data.code == -4){
+            		location.href = '/main';
+            	}
+            },
+            //请求失败，包含具体的错误信息
+            error : function(e){
+                if(currentfetchQRcodeAjax){
+                	return;
+                }
+                $('.qrcode-invalid').attr("errorcode",-3);
+               	$('.qrcode-invalid').show();	
+            }
+        });
+    }
+  });
+  
+ </script>
+</html>

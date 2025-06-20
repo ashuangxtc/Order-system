@@ -1,0 +1,1051 @@
+2025-06-17 09:05:50 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:06:00 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:06:10 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:06:20 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:06:30 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:06:40 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:06:50 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:07:00 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:07:10 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:07:20 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:07:30 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:07:40 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:07:50 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:08:00 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:08:10 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:08:20 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:08:30 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:08:40 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 09:08:50 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:13:11 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:13:21 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:13:31 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:13:41 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:13:51 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:14:01 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:14:11 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:47:21 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:47:31 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:47:41 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:47:51 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:48:01 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:48:11 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:48:21 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:48:31 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:48:41 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:48:51 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:49:01 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:49:11 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:49:21 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:49:31 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:49:41 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:49:51 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:50:01 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:50:11 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:50:21 - order_sync - ERROR - 同步订单时出错: 'OrderScraper' object has no attribute 'fetch_orders'
+2025-06-17 10:52:43 - order_sync - ERROR - 服务初始化失败: 请设置FIREBASE_DATABASE_URL环境变量
+2025-06-17 10:52:43 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 10:52:49 - order_sync - ERROR - 服务初始化失败: 请设置FIREBASE_DATABASE_URL环境变量
+2025-06-17 10:52:49 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 10:54:10 - order_sync - ERROR - 服务初始化失败: 请设置FIREBASE_DATABASE_URL环境变量
+2025-06-17 10:54:10 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 10:59:02 - order_sync - ERROR - 服务初始化失败: 请在环境变量中设置TONGLIAN_USERNAME和TONGLIAN_PASSWORD
+2025-06-17 10:59:02 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 11:00:09 - order_sync - ERROR - 服务初始化失败: 请在环境变量中设置TONGLIAN_USERNAME和TONGLIAN_PASSWORD
+2025-06-17 11:00:09 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 12:38:08 - order_sync - ERROR - 服务初始化失败: OrderScraper.__init__() got an unexpected keyword argument 'login_url'
+2025-06-17 12:38:08 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 13:16:35 - order_sync - ERROR - 服务初始化失败: OrderScraper.__init__() takes 1 positional argument but 3 were given
+2025-06-17 13:16:35 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 13:18:48 - order_sync - ERROR - 服务初始化失败: OrderScraper.__init__() takes 1 positional argument but 3 were given
+2025-06-17 13:18:48 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 13:18:52 - order_sync - ERROR - 服务初始化失败: OrderScraper.__init__() takes 1 positional argument but 3 were given
+2025-06-17 13:18:52 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 13:58:22 - order_sync - ERROR - 服务初始化失败: OrderScraper.__init__() takes 1 positional argument but 3 were given
+2025-06-17 13:58:22 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 13:58:38 - order_sync - ERROR - 服务初始化失败: OrderScraper.__init__() takes 1 positional argument but 3 were given
+2025-06-17 13:58:38 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 13:58:43 - order_sync - ERROR - 服务初始化失败: OrderScraper.__init__() takes 1 positional argument but 3 were given
+2025-06-17 13:58:43 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 14:05:46 - order_sync - ERROR - 服务初始化失败: OrderScraper.__init__() takes 1 positional argument but 3 were given
+2025-06-17 14:05:46 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 14:05:53 - order_sync - ERROR - 服务初始化失败: OrderScraper.__init__() takes 1 positional argument but 3 were given
+2025-06-17 14:05:53 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 14:05:56 - order_sync - ERROR - 服务初始化失败: OrderScraper.__init__() takes 1 positional argument but 3 were given
+2025-06-17 14:05:56 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 14:17:20 - order_sync - ERROR - 服务初始化失败: 'OrderScraper' object has no attribute 'login_with_cookie'
+2025-06-17 14:17:20 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 14:17:26 - order_sync - ERROR - 服务初始化失败: 'OrderScraper' object has no attribute 'login_with_cookie'
+2025-06-17 14:17:26 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 14:17:33 - order_sync - ERROR - 服务初始化失败: 'OrderScraper' object has no attribute 'login_with_cookie'
+2025-06-17 14:17:33 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 14:24:07 - order_sync - ERROR - ❌ 第 1 页抓取失败: Expecting value: line 3 column 1 (char 2)
+2025-06-17 14:24:20 - order_sync - ERROR - ❌ 第 1 页抓取失败: Expecting value: line 3 column 1 (char 2)
+2025-06-17 14:24:31 - order_sync - ERROR - ❌ 第 1 页抓取失败: Expecting value: line 3 column 1 (char 2)
+2025-06-17 14:24:42 - order_sync - ERROR - ❌ 第 1 页抓取失败: Expecting value: line 3 column 1 (char 2)
+2025-06-17 14:24:53 - order_sync - ERROR - ❌ 第 1 页抓取失败: Expecting value: line 3 column 1 (char 2)
+2025-06-17 14:25:04 - order_sync - ERROR - ❌ 第 1 页抓取失败: Expecting value: line 3 column 1 (char 2)
+2025-06-17 14:25:16 - order_sync - ERROR - ❌ 第 1 页抓取失败: Expecting value: line 3 column 1 (char 2)
+2025-06-17 14:25:27 - order_sync - ERROR - ❌ 第 1 页抓取失败: Expecting value: line 3 column 1 (char 2)
+2025-06-17 14:25:40 - order_sync - ERROR - ❌ 第 1 页抓取失败: Expecting value: line 3 column 1 (char 2)
+2025-06-17 14:25:51 - order_sync - ERROR - ❌ 第 1 页抓取失败: Expecting value: line 3 column 1 (char 2)
+2025-06-17 14:26:03 - order_sync - ERROR - ❌ 第 1 页抓取失败: Expecting value: line 3 column 1 (char 2)
+2025-06-17 14:26:14 - order_sync - ERROR - ❌ 第 1 页抓取失败: Expecting value: line 3 column 1 (char 2)
+2025-06-17 14:26:26 - order_sync - ERROR - ❌ 第 1 页抓取失败: Expecting value: line 3 column 1 (char 2)
+2025-06-17 14:26:37 - order_sync - ERROR - 服务初始化失败: 'OrderScraper' object has no attribute 'login_with_cookie'
+2025-06-17 14:26:37 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 14:26:43 - order_sync - ERROR - 服务初始化失败: 'OrderScraper' object has no attribute 'login_with_cookie'
+2025-06-17 14:26:43 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 14:26:49 - order_sync - ERROR - 服务初始化失败: 'OrderScraper' object has no attribute 'login_with_cookie'
+2025-06-17 14:26:49 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 14:26:54 - order_sync - ERROR - 服务初始化失败: 'OrderScraper' object has no attribute 'login_with_cookie'
+2025-06-17 14:26:54 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 14:31:21 - order_sync - ERROR - 服务初始化失败：OrderScraper.__init__() missing 1 required positional argument: 'logger'
+2025-06-17 14:31:21 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 14:31:27 - order_sync - ERROR - 服务初始化失败：OrderScraper.__init__() missing 1 required positional argument: 'logger'
+2025-06-17 14:31:27 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 14:56:34 - order_sync - ERROR - 服务初始化失败: OrderScraper.__init__() takes 1 positional argument but 2 were given
+2025-06-17 14:56:34 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 14:59:29 - order_sync - ERROR - 服务初始化失败: OrderScraper.login_with_cookie() takes 1 positional argument but 3 were given
+2025-06-17 14:59:29 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 14:59:34 - order_sync - ERROR - 服务初始化失败: OrderScraper.login_with_cookie() takes 1 positional argument but 3 were given
+2025-06-17 14:59:34 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 14:59:37 - order_sync - ERROR - 服务初始化失败: OrderScraper.login_with_cookie() takes 1 positional argument but 3 were given
+2025-06-17 14:59:37 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 15:02:22 - order_sync - ERROR - 服务初始化失败: OrderScraper.login_with_cookie() takes 1 positional argument but 3 were given
+2025-06-17 15:02:22 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-17 15:02:28 - order_sync - ERROR - 服务初始化失败: OrderScraper.login_with_cookie() takes 1 positional argument but 3 were given
+2025-06-17 15:02:28 - order_sync - ERROR - 服务初始化失败，程序退出
+2025-06-18 01:39:09 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:39:19 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:39:29 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:39:40 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:39:50 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:40:00 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:40:11 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:40:21 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:40:32 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:40:42 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:40:53 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:41:04 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:41:14 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:41:24 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:41:35 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:41:45 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:41:55 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:42:06 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:42:16 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:42:27 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:42:37 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:42:47 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:42:58 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:43:08 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:43:18 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:43:29 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:43:39 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:43:50 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:44:01 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:44:11 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:44:21 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:44:33 - order_sync - ERROR - ❌ 同步任务异常: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium-1091/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-06-18 01:45:00 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgobject-2.0.so.0                              ║
+║     libglib-2.0.so.0                                 ║
+║     libnss3.so                                       ║
+║     libnssutil3.so                                   ║
+║     libsmime3.so                                     ║
+║     libnspr4.so                                      ║
+║     libdbus-1.so.3                                   ║
+║     libatk-1.0.so.0                                  ║
+║     libatk-bridge-2.0.so.0                           ║
+║     libcups.so.2                                     ║
+║     libgio-2.0.so.0                                  ║
+║     libdrm.so.2                                      ║
+║     libexpat.so.1                                    ║
+║     libxcb.so.1                                      ║
+║     libxkbcommon.so.0                                ║
+║     libatspi.so.0                                    ║
+║     libX11.so.6                                      ║
+║     libXcomposite.so.1                               ║
+║     libXdamage.so.1                                  ║
+║     libXext.so.6                                     ║
+║     libXfixes.so.3                                   ║
+║     libXrandr.so.2                                   ║
+║     libgbm.so.1                                      ║
+║     libpango-1.0.so.0                                ║
+║     libcairo.so.2                                    ║
+║     libasound.so.2                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:45:11 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgobject-2.0.so.0                              ║
+║     libglib-2.0.so.0                                 ║
+║     libnss3.so                                       ║
+║     libnssutil3.so                                   ║
+║     libsmime3.so                                     ║
+║     libnspr4.so                                      ║
+║     libdbus-1.so.3                                   ║
+║     libatk-1.0.so.0                                  ║
+║     libatk-bridge-2.0.so.0                           ║
+║     libcups.so.2                                     ║
+║     libgio-2.0.so.0                                  ║
+║     libdrm.so.2                                      ║
+║     libexpat.so.1                                    ║
+║     libxcb.so.1                                      ║
+║     libxkbcommon.so.0                                ║
+║     libatspi.so.0                                    ║
+║     libX11.so.6                                      ║
+║     libXcomposite.so.1                               ║
+║     libXdamage.so.1                                  ║
+║     libXext.so.6                                     ║
+║     libXfixes.so.3                                   ║
+║     libXrandr.so.2                                   ║
+║     libgbm.so.1                                      ║
+║     libpango-1.0.so.0                                ║
+║     libcairo.so.2                                    ║
+║     libasound.so.2                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:45:21 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgobject-2.0.so.0                              ║
+║     libglib-2.0.so.0                                 ║
+║     libnss3.so                                       ║
+║     libnssutil3.so                                   ║
+║     libsmime3.so                                     ║
+║     libnspr4.so                                      ║
+║     libdbus-1.so.3                                   ║
+║     libatk-1.0.so.0                                  ║
+║     libatk-bridge-2.0.so.0                           ║
+║     libcups.so.2                                     ║
+║     libgio-2.0.so.0                                  ║
+║     libdrm.so.2                                      ║
+║     libexpat.so.1                                    ║
+║     libxcb.so.1                                      ║
+║     libxkbcommon.so.0                                ║
+║     libatspi.so.0                                    ║
+║     libX11.so.6                                      ║
+║     libXcomposite.so.1                               ║
+║     libXdamage.so.1                                  ║
+║     libXext.so.6                                     ║
+║     libXfixes.so.3                                   ║
+║     libXrandr.so.2                                   ║
+║     libgbm.so.1                                      ║
+║     libpango-1.0.so.0                                ║
+║     libcairo.so.2                                    ║
+║     libasound.so.2                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:45:32 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgobject-2.0.so.0                              ║
+║     libglib-2.0.so.0                                 ║
+║     libnss3.so                                       ║
+║     libnssutil3.so                                   ║
+║     libsmime3.so                                     ║
+║     libnspr4.so                                      ║
+║     libdbus-1.so.3                                   ║
+║     libatk-1.0.so.0                                  ║
+║     libatk-bridge-2.0.so.0                           ║
+║     libcups.so.2                                     ║
+║     libgio-2.0.so.0                                  ║
+║     libdrm.so.2                                      ║
+║     libexpat.so.1                                    ║
+║     libxcb.so.1                                      ║
+║     libxkbcommon.so.0                                ║
+║     libatspi.so.0                                    ║
+║     libX11.so.6                                      ║
+║     libXcomposite.so.1                               ║
+║     libXdamage.so.1                                  ║
+║     libXext.so.6                                     ║
+║     libXfixes.so.3                                   ║
+║     libXrandr.so.2                                   ║
+║     libgbm.so.1                                      ║
+║     libpango-1.0.so.0                                ║
+║     libcairo.so.2                                    ║
+║     libasound.so.2                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:45:42 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgobject-2.0.so.0                              ║
+║     libglib-2.0.so.0                                 ║
+║     libnss3.so                                       ║
+║     libnssutil3.so                                   ║
+║     libsmime3.so                                     ║
+║     libnspr4.so                                      ║
+║     libdbus-1.so.3                                   ║
+║     libatk-1.0.so.0                                  ║
+║     libatk-bridge-2.0.so.0                           ║
+║     libcups.so.2                                     ║
+║     libgio-2.0.so.0                                  ║
+║     libdrm.so.2                                      ║
+║     libexpat.so.1                                    ║
+║     libxcb.so.1                                      ║
+║     libxkbcommon.so.0                                ║
+║     libatspi.so.0                                    ║
+║     libX11.so.6                                      ║
+║     libXcomposite.so.1                               ║
+║     libXdamage.so.1                                  ║
+║     libXext.so.6                                     ║
+║     libXfixes.so.3                                   ║
+║     libXrandr.so.2                                   ║
+║     libgbm.so.1                                      ║
+║     libpango-1.0.so.0                                ║
+║     libcairo.so.2                                    ║
+║     libasound.so.2                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:45:53 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgobject-2.0.so.0                              ║
+║     libglib-2.0.so.0                                 ║
+║     libnss3.so                                       ║
+║     libnssutil3.so                                   ║
+║     libsmime3.so                                     ║
+║     libnspr4.so                                      ║
+║     libdbus-1.so.3                                   ║
+║     libatk-1.0.so.0                                  ║
+║     libatk-bridge-2.0.so.0                           ║
+║     libcups.so.2                                     ║
+║     libgio-2.0.so.0                                  ║
+║     libdrm.so.2                                      ║
+║     libexpat.so.1                                    ║
+║     libxcb.so.1                                      ║
+║     libxkbcommon.so.0                                ║
+║     libatspi.so.0                                    ║
+║     libX11.so.6                                      ║
+║     libXcomposite.so.1                               ║
+║     libXdamage.so.1                                  ║
+║     libXext.so.6                                     ║
+║     libXfixes.so.3                                   ║
+║     libXrandr.so.2                                   ║
+║     libgbm.so.1                                      ║
+║     libpango-1.0.so.0                                ║
+║     libcairo.so.2                                    ║
+║     libasound.so.2                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:46:03 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgobject-2.0.so.0                              ║
+║     libglib-2.0.so.0                                 ║
+║     libnss3.so                                       ║
+║     libnssutil3.so                                   ║
+║     libsmime3.so                                     ║
+║     libnspr4.so                                      ║
+║     libdbus-1.so.3                                   ║
+║     libatk-1.0.so.0                                  ║
+║     libatk-bridge-2.0.so.0                           ║
+║     libcups.so.2                                     ║
+║     libgio-2.0.so.0                                  ║
+║     libdrm.so.2                                      ║
+║     libexpat.so.1                                    ║
+║     libxcb.so.1                                      ║
+║     libxkbcommon.so.0                                ║
+║     libatspi.so.0                                    ║
+║     libX11.so.6                                      ║
+║     libXcomposite.so.1                               ║
+║     libXdamage.so.1                                  ║
+║     libXext.so.6                                     ║
+║     libXfixes.so.3                                   ║
+║     libXrandr.so.2                                   ║
+║     libgbm.so.1                                      ║
+║     libpango-1.0.so.0                                ║
+║     libcairo.so.2                                    ║
+║     libasound.so.2                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:46:14 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgobject-2.0.so.0                              ║
+║     libglib-2.0.so.0                                 ║
+║     libnss3.so                                       ║
+║     libnssutil3.so                                   ║
+║     libsmime3.so                                     ║
+║     libnspr4.so                                      ║
+║     libdbus-1.so.3                                   ║
+║     libatk-1.0.so.0                                  ║
+║     libatk-bridge-2.0.so.0                           ║
+║     libcups.so.2                                     ║
+║     libgio-2.0.so.0                                  ║
+║     libdrm.so.2                                      ║
+║     libexpat.so.1                                    ║
+║     libxcb.so.1                                      ║
+║     libxkbcommon.so.0                                ║
+║     libatspi.so.0                                    ║
+║     libX11.so.6                                      ║
+║     libXcomposite.so.1                               ║
+║     libXdamage.so.1                                  ║
+║     libXext.so.6                                     ║
+║     libXfixes.so.3                                   ║
+║     libXrandr.so.2                                   ║
+║     libgbm.so.1                                      ║
+║     libpango-1.0.so.0                                ║
+║     libcairo.so.2                                    ║
+║     libasound.so.2                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:46:24 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgobject-2.0.so.0                              ║
+║     libglib-2.0.so.0                                 ║
+║     libnss3.so                                       ║
+║     libnssutil3.so                                   ║
+║     libsmime3.so                                     ║
+║     libnspr4.so                                      ║
+║     libdbus-1.so.3                                   ║
+║     libatk-1.0.so.0                                  ║
+║     libatk-bridge-2.0.so.0                           ║
+║     libcups.so.2                                     ║
+║     libgio-2.0.so.0                                  ║
+║     libdrm.so.2                                      ║
+║     libexpat.so.1                                    ║
+║     libxcb.so.1                                      ║
+║     libxkbcommon.so.0                                ║
+║     libatspi.so.0                                    ║
+║     libX11.so.6                                      ║
+║     libXcomposite.so.1                               ║
+║     libXdamage.so.1                                  ║
+║     libXext.so.6                                     ║
+║     libXfixes.so.3                                   ║
+║     libXrandr.so.2                                   ║
+║     libgbm.so.1                                      ║
+║     libpango-1.0.so.0                                ║
+║     libcairo.so.2                                    ║
+║     libasound.so.2                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:46:34 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgobject-2.0.so.0                              ║
+║     libglib-2.0.so.0                                 ║
+║     libnss3.so                                       ║
+║     libnssutil3.so                                   ║
+║     libsmime3.so                                     ║
+║     libnspr4.so                                      ║
+║     libdbus-1.so.3                                   ║
+║     libatk-1.0.so.0                                  ║
+║     libatk-bridge-2.0.so.0                           ║
+║     libcups.so.2                                     ║
+║     libgio-2.0.so.0                                  ║
+║     libdrm.so.2                                      ║
+║     libexpat.so.1                                    ║
+║     libxcb.so.1                                      ║
+║     libxkbcommon.so.0                                ║
+║     libatspi.so.0                                    ║
+║     libX11.so.6                                      ║
+║     libXcomposite.so.1                               ║
+║     libXdamage.so.1                                  ║
+║     libXext.so.6                                     ║
+║     libXfixes.so.3                                   ║
+║     libXrandr.so.2                                   ║
+║     libgbm.so.1                                      ║
+║     libpango-1.0.so.0                                ║
+║     libcairo.so.2                                    ║
+║     libasound.so.2                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:46:45 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgobject-2.0.so.0                              ║
+║     libglib-2.0.so.0                                 ║
+║     libnss3.so                                       ║
+║     libnssutil3.so                                   ║
+║     libsmime3.so                                     ║
+║     libnspr4.so                                      ║
+║     libdbus-1.so.3                                   ║
+║     libatk-1.0.so.0                                  ║
+║     libatk-bridge-2.0.so.0                           ║
+║     libcups.so.2                                     ║
+║     libgio-2.0.so.0                                  ║
+║     libdrm.so.2                                      ║
+║     libexpat.so.1                                    ║
+║     libxcb.so.1                                      ║
+║     libxkbcommon.so.0                                ║
+║     libatspi.so.0                                    ║
+║     libX11.so.6                                      ║
+║     libXcomposite.so.1                               ║
+║     libXdamage.so.1                                  ║
+║     libXext.so.6                                     ║
+║     libXfixes.so.3                                   ║
+║     libXrandr.so.2                                   ║
+║     libgbm.so.1                                      ║
+║     libpango-1.0.so.0                                ║
+║     libcairo.so.2                                    ║
+║     libasound.so.2                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:46:55 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgobject-2.0.so.0                              ║
+║     libglib-2.0.so.0                                 ║
+║     libnss3.so                                       ║
+║     libnssutil3.so                                   ║
+║     libsmime3.so                                     ║
+║     libnspr4.so                                      ║
+║     libdbus-1.so.3                                   ║
+║     libatk-1.0.so.0                                  ║
+║     libatk-bridge-2.0.so.0                           ║
+║     libcups.so.2                                     ║
+║     libgio-2.0.so.0                                  ║
+║     libdrm.so.2                                      ║
+║     libexpat.so.1                                    ║
+║     libxcb.so.1                                      ║
+║     libxkbcommon.so.0                                ║
+║     libatspi.so.0                                    ║
+║     libX11.so.6                                      ║
+║     libXcomposite.so.1                               ║
+║     libXdamage.so.1                                  ║
+║     libXext.so.6                                     ║
+║     libXfixes.so.3                                   ║
+║     libXrandr.so.2                                   ║
+║     libgbm.so.1                                      ║
+║     libpango-1.0.so.0                                ║
+║     libcairo.so.2                                    ║
+║     libasound.so.2                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:47:06 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgobject-2.0.so.0                              ║
+║     libglib-2.0.so.0                                 ║
+║     libnss3.so                                       ║
+║     libnssutil3.so                                   ║
+║     libsmime3.so                                     ║
+║     libnspr4.so                                      ║
+║     libdbus-1.so.3                                   ║
+║     libatk-1.0.so.0                                  ║
+║     libatk-bridge-2.0.so.0                           ║
+║     libcups.so.2                                     ║
+║     libgio-2.0.so.0                                  ║
+║     libdrm.so.2                                      ║
+║     libexpat.so.1                                    ║
+║     libxcb.so.1                                      ║
+║     libxkbcommon.so.0                                ║
+║     libatspi.so.0                                    ║
+║     libX11.so.6                                      ║
+║     libXcomposite.so.1                               ║
+║     libXdamage.so.1                                  ║
+║     libXext.so.6                                     ║
+║     libXfixes.so.3                                   ║
+║     libXrandr.so.2                                   ║
+║     libgbm.so.1                                      ║
+║     libpango-1.0.so.0                                ║
+║     libcairo.so.2                                    ║
+║     libasound.so.2                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:47:16 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgobject-2.0.so.0                              ║
+║     libglib-2.0.so.0                                 ║
+║     libnss3.so                                       ║
+║     libnssutil3.so                                   ║
+║     libsmime3.so                                     ║
+║     libnspr4.so                                      ║
+║     libdbus-1.so.3                                   ║
+║     libatk-1.0.so.0                                  ║
+║     libatk-bridge-2.0.so.0                           ║
+║     libcups.so.2                                     ║
+║     libgio-2.0.so.0                                  ║
+║     libdrm.so.2                                      ║
+║     libexpat.so.1                                    ║
+║     libxcb.so.1                                      ║
+║     libxkbcommon.so.0                                ║
+║     libatspi.so.0                                    ║
+║     libX11.so.6                                      ║
+║     libXcomposite.so.1                               ║
+║     libXdamage.so.1                                  ║
+║     libXext.so.6                                     ║
+║     libXfixes.so.3                                   ║
+║     libXrandr.so.2                                   ║
+║     libgbm.so.1                                      ║
+║     libpango-1.0.so.0                                ║
+║     libcairo.so.2                                    ║
+║     libasound.so.2                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:47:27 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgobject-2.0.so.0                              ║
+║     libglib-2.0.so.0                                 ║
+║     libnss3.so                                       ║
+║     libnssutil3.so                                   ║
+║     libsmime3.so                                     ║
+║     libnspr4.so                                      ║
+║     libdbus-1.so.3                                   ║
+║     libatk-1.0.so.0                                  ║
+║     libatk-bridge-2.0.so.0                           ║
+║     libcups.so.2                                     ║
+║     libgio-2.0.so.0                                  ║
+║     libdrm.so.2                                      ║
+║     libexpat.so.1                                    ║
+║     libxcb.so.1                                      ║
+║     libxkbcommon.so.0                                ║
+║     libatspi.so.0                                    ║
+║     libX11.so.6                                      ║
+║     libXcomposite.so.1                               ║
+║     libXdamage.so.1                                  ║
+║     libXext.so.6                                     ║
+║     libXfixes.so.3                                   ║
+║     libXrandr.so.2                                   ║
+║     libgbm.so.1                                      ║
+║     libpango-1.0.so.0                                ║
+║     libcairo.so.2                                    ║
+║     libasound.so.2                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:47:38 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgobject-2.0.so.0                              ║
+║     libglib-2.0.so.0                                 ║
+║     libnss3.so                                       ║
+║     libnssutil3.so                                   ║
+║     libsmime3.so                                     ║
+║     libnspr4.so                                      ║
+║     libdbus-1.so.3                                   ║
+║     libatk-1.0.so.0                                  ║
+║     libatk-bridge-2.0.so.0                           ║
+║     libcups.so.2                                     ║
+║     libgio-2.0.so.0                                  ║
+║     libdrm.so.2                                      ║
+║     libexpat.so.1                                    ║
+║     libxcb.so.1                                      ║
+║     libxkbcommon.so.0                                ║
+║     libatspi.so.0                                    ║
+║     libX11.so.6                                      ║
+║     libXcomposite.so.1                               ║
+║     libXdamage.so.1                                  ║
+║     libXext.so.6                                     ║
+║     libXfixes.so.3                                   ║
+║     libXrandr.so.2                                   ║
+║     libgbm.so.1                                      ║
+║     libpango-1.0.so.0                                ║
+║     libcairo.so.2                                    ║
+║     libasound.so.2                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:47:44 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libasound2                  ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:47:55 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libasound2                  ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:48:05 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libasound2                  ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:48:16 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libasound2                  ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:48:26 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libasound2                  ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:48:37 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libasound2                  ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:48:47 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libasound2                  ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:48:58 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libasound2                  ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:49:09 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libasound2                  ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:49:19 - order_sync - ERROR - ❌ 同步任务异常: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libasound2                  ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-06-18 01:50:06 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 01:50:50 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 01:51:34 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 01:52:18 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 01:53:02 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 01:53:45 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 01:54:29 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 01:55:14 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 01:55:57 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 01:56:42 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 01:57:26 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 01:58:09 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 01:58:53 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 01:59:36 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 02:00:20 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 02:01:03 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 02:01:47 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 02:02:31 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 02:03:14 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 02:03:58 - order_sync - ERROR - ❌ 同步任务异常: Timeout 30000ms exceeded.
+2025-06-18 02:05:04 - order_sync - ERROR - ❌ Playwright 抓单失败: Timeout 30000ms exceeded.
+2025-06-18 02:05:48 - order_sync - ERROR - ❌ Playwright 抓单失败: Timeout 30000ms exceeded.
+2025-06-18 02:06:31 - order_sync - ERROR - ❌ Playwright 抓单失败: Timeout 30000ms exceeded.
+2025-06-18 02:07:14 - order_sync - ERROR - ❌ Playwright 抓单失败: Timeout 30000ms exceeded.
+2025-06-18 02:07:58 - order_sync - ERROR - ❌ Playwright 抓单失败: Timeout 30000ms exceeded.
+2025-06-18 02:08:41 - order_sync - ERROR - ❌ Playwright 抓单失败: Timeout 30000ms exceeded.
+2025-06-18 02:09:24 - order_sync - ERROR - ❌ Playwright 抓单失败: Timeout 30000ms exceeded.
+2025-06-18 02:34:33 - order_sync - ERROR - 🚫 服务初始化失败: 'OrderScraper' object has no attribute 'login_with_cookie'
+2025-06-18 02:34:33 - order_sync - ERROR - ❌ 初始化失败，程序退出

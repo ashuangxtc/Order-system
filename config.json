@@ -1,0 +1,68 @@
+{
+    "products": {
+        "mappings": [
+            {
+                "name": "苏贵",
+                "exact_amount": 48,
+                "description": "苏贵单品",
+                "category": "主食"
+            },
+            {
+                "name": "薯条",
+                "exact_amount": 20,
+                "description": "薯条单品",
+                "category": "小食"
+            },
+            {
+                "name": "投名状",
+                "exact_amount": 58,
+                "description": "投名状单品",
+                "category": "主食"
+            },
+            {
+                "name": "苏贵+薯条",
+                "exact_amount": 68,
+                "description": "苏贵配薯条套餐",
+                "category": "套餐",
+                "combo_items": ["苏贵", "薯条"]
+            },
+            {
+                "name": "苏贵+苏贵",
+                "exact_amount": 96,
+                "description": "双份苏贵",
+                "category": "套餐",
+                "combo_items": ["苏贵", "苏贵"]
+            },
+            {
+                "name": "苏贵+投名状",
+                "exact_amount": 106,
+                "description": "苏贵配投名状套餐",
+                "category": "套餐",
+                "combo_items": ["苏贵", "投名状"]
+            }
+        ],
+        "default_product": {
+            "name": "其他商品",
+            "description": "未分类商品",
+            "category": "其他"
+        }
+    },
+    "scraper": {
+        "timeout": 30,
+        "retry_times": 3,
+        "retry_delay": 5,
+        "page_size": 50,
+        "date_format": "%Y-%m-%d %H:%M:%S"
+    },
+    "firebase": {
+        "orders_collection": "orders",
+        "products_collection": "products",
+        "sync_log_collection": "sync_logs"
+    },
+    "logging": {
+        "level": "INFO",
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        "max_log_files": 10,
+        "max_file_size": "10MB"
+    }
+}
